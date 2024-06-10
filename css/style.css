@@ -2,7 +2,19 @@
 
 
 .header {
-    height: 30px;
+    height: 20em;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position-x: center;
+
+}
+    
+.header img {
+    height: 120px;
+    width: auto;
     position: sticky;
     top: 0;
     z-index: 999;
