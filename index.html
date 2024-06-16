@@ -11,12 +11,12 @@
 <body>
     
    <header class="header container-fluid p-0">
-    <div class="parallax">
+    <div class="parallax d-none d-lg-block">
 
         <div class="container m-0 ">
             <div class="row">
                 <div class="col-3">
-                    <img class="d-none d-lg-block" src="./img/logoTr.png" alt="logo">
+                    <img src="./img/logoTr.png" alt="logo">
                 </div>
                 <div class="col-9">
                     <p id="motto" class="d-none d-lg-block">Polep vozidel, wrap, panely, billboardy, bannery, reklama, písmo i grafika.</p>
@@ -24,7 +24,7 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand navbar-dark d-none d-lg-block">  
+        <nav class="navbar navbar-expand navbar-dark">  
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div id="navBAR" class="container pl-5 my-5">
                     <ul class="navbar-nav mr-auto">
@@ -41,45 +41,51 @@
                 </div>
             </div>
         </nav>
+    </div>
 
-        <nav class="navbar navbar-expand navbar-dark d-lg-none">
-            <img class="d-lg-none" src="./img/logoTr.png" alt="logo">
-            <div id="navBaR" class="collapse navbar-collapse" id="navbarNav">
+    <nav class="navbar navbar-expand navbar-dark d-lg-none">
+        <img class="d-lg-none" src="./img/logoTr.png" alt="logo">
+        <div id="phoneNAV" class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Domů<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/svetlydesign/">Kontakt</a>
+                    <a class="nav-link" href="contact.html">Kontakt</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
             </ul>
-            </div>
-        </nav>
-
-    </div>
+        </div>
+    </nav>
+    
    </header>
+
+
 
    <main>
 
     <div class="main">
         <img class="d-none d-lg-block" src="./img/LogoFT.png" alt="logo">
-        <article class="text-dark">
+        <article class="text-dark p-2">
             <h1>Vítejte ve světě Světlý design, kde se kreativita setkává s inovací.</h1>
             <p>
             Již několik let se věnujeme tomu, co máme nejraději - reklamě a designu. <br>
             Naše práce je naším uměním, a proto každý projekt přistupujeme s vášní a precizností. <br>
             Od návrhu loga po kompletní vizuální identitu vaší značky - Světlý deSign je zde, aby vám pomohl zazářit.
             </p>
+            <img class="d-lg-none" src="./img/dum.jpg" alt="auto">
         </article>
     </div>
 
    </main>
 
+
+
    <footer>
-    <div class="container-fluid m-0 p-0 text-secondary border">
+
+    <div class="container-fluid m-0 p-0 text-secondary border d-none d-lg-block">
 
         <div id="a" class="btn-group dropright">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -98,6 +104,22 @@
         </div>
 
     </div>
+
+    <div class="container-fluid m-0 p-0 d-lg-none">
+
+        <article id="contact">
+            <h1>Kontakt:</h1>
+            <p><strong>telefon: </strong>+420 602 339 894</p>
+            <p><strong>email: </strong>svetly@svetly.cz</p>
+        </article>
+
+        <article id="copyright">
+            <p>Fotografie patří firmě Světlý deSign.</p>
+            <a href="https://linktr.ee/prazka" class="text-light">&copy; 2024 Nella Pražáková</a>
+        </article>
+
+    </div>
+
    </footer>
 
 </body>

@@ -91,18 +91,13 @@ footer #b {
 /* pro telefony  */
 @media only screen and (max-width: 900px) {
 
-    body {
-    font-family: "Poppins", sans-serif;
-    }
+body {
+font-family: "Poppins", sans-serif;
+}
 
 header {
     background: rgb(43,141,195);
     background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
-}
-
-#navBaR {
-    width: 100%;
-    font-size: 1em;
 }
 
 header img {
@@ -123,37 +118,33 @@ header img {
 
 .main h1 {
     font-size: 1em;
-    padding-top: 4em
+    padding-top: 3.5em;
+    margin: 1em;
 }
 
 .main img {
     margin-top: 3em;
     margin-bottom: 2em;
-    height: 70px;
+    max-width: 400px;
 }
 
 footer {
-    margin-top: 3em;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
     background: rgb(43,141,195);
     background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
 }
 
-footer p {
-    padding-top: 2em
+footer article {
+    padding: 2em;
 }
 
-footer #a {
-    margin-top: 3em;
-    margin-bottom: 2em
-    
+#contact h1 {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    margin-top: 1em
 }
 
-footer #b {
-    border-top: 1px #2B59C3 solid;
-    margin-bottom: 2em
+#copyright {
+    border-top: 1px solid white
 }
 
 }
