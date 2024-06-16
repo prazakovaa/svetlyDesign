@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media only screen and (min-width: 360px) { 
+
+.parallax {
+    background-image: url(../img/header.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#motto {
+    font-size: 23px;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    margin-top: 3.5em
+}
+
+#navBAR {
+    position: absolute;
+    top: 2em;
+    left: 7em;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 520;
+}
+
+#navBAr .a {
+    padding: 1em;
+    margin: 20px
+}
+
+/* #navBAR a:hover {
+    font-size: 1.3em;
+    font-weight: 400;
+    transition: 1s;
+} */
+
+.parallax img {
+    width: 10em;
+    height: auto;
+    margin-left: 2em;
+    margin-top: 1em
+}
+
+
+
+}
+
+
+
+/* pro telefony  */
+@media only screen and (max-width: 960px) { 
+    
+}
+
