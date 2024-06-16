@@ -7,37 +7,55 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Světlý design</title>
 </head>
+
 <body>
     
    <header class="header container-fluid p-0">
     <div class="parallax">
 
-        <div class="container m-0">
+        <div class="container m-0 ">
             <div class="row">
                 <div class="col-3">
-                    <img src="./img/logoTr.png" alt="logo">
+                    <img class="d-none d-lg-block" src="./img/logoTr.png" alt="logo">
                 </div>
                 <div class="col-9">
-                    <p id="motto">Polep vozidel, wrap, panely, billboardy, bannery, reklama, písmo i grafika.</p>
+                    <p id="motto" class="d-none d-lg-block">Polep vozidel, wrap, panely, billboardy, bannery, reklama, písmo i grafika.</p>
                 </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand navbar-dark">  
+        <nav class="navbar navbar-expand navbar-dark d-none d-lg-block">  
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div id="navBAR" class="container-fluid m-0 p-0 border">
+                <div id="navBAR" class="container pl-5 my-5">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link border" href="index.html">Domovská stránka<span class="sr-only">(current)</span></a>
+                            <a class="nav-link border px-4 mx-5" href="index.html">Domovská stránka<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Kontakt</a>
+                            <a class="nav-link mx-5" href="contact.html">Kontakt</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link mx-5" href="portfolio.html">Portfolio</a>
                         </li>
                     </ul> 
                 </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand navbar-dark d-lg-none">
+            <img class="d-lg-none" src="./img/logoTr.png" alt="logo">
+            <div id="navBaR" class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Domů<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/svetlydesign/">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
             </div>
         </nav>
 
@@ -47,7 +65,7 @@
    <main>
 
     <div class="main">
-        <img src="./img/LogoFT.png" alt="logo">
+        <img class="d-none d-lg-block" src="./img/LogoFT.png" alt="logo">
         <article class="text-dark">
             <h1>Vítejte ve světě Světlý design, kde se kreativita setkává s inovací.</h1>
             <p>
@@ -83,4 +101,5 @@
    </footer>
 
 </body>
+
 </html>

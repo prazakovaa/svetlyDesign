@@ -10,7 +10,7 @@
 <body>
     
     <header class="container-fluid">
-        <nav class="navbar navbar-expand navbar-dark px-5">
+        <nav class="navbar navbar-expand navbar-dark px-5 d-none d-lg-block">
             <div class="container">
                 <img src="./img/logoTr.png" class="m-3 h1 px-5" alt="logo">
             <div class="collapse navbar-collapse" id="navButton">
@@ -32,6 +32,24 @@
             </div>
             </div>
         </nav>
+
+        <nav class="navbar navbar-expand navbar-dark d-lg-none">
+            <img class="my-3" src="./img/logoTr.png" alt="logo">
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link pr-0" href="index.html">Domů</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-0" href="https://www.facebook.com/svetlydesign/">Kontakt</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link px-0" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
     </header>
 
    <main>
@@ -159,9 +177,9 @@
    </main>
 
    <footer>
-    <div class="container-fluid m-0 p-0 text-secondary border">
+    <div class="container-fluid text-secondary border-primary">
 
-        <div id="b" class="container">
+        <div id="b" class="container-fluid">
         <p>Všechny fotografie patří firmě Světlý deSign,
              nelze je bez souhlasu publikovat.</p>
         <a href="https://linktr.ee/prazka">&copy; 2024 Nella Pražáková</a>

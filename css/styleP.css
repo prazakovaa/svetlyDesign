@@ -47,3 +47,52 @@ footer p {
 }
 
 }
+
+/* pro telefony  */
+@media only screen and (max-width: 900px) {
+
+    body {
+    font-family: "Poppins", sans-serif;
+    }
+    
+    header {
+        background: rgb(43,141,195);
+        background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
+    }
+    
+    #navbarNav {
+        width: 100%;
+        font-size: 0.7em;
+    }
+    
+    header img {
+        width: 5em;
+        height: auto;
+    }
+
+    .gallery {
+        display: inline-block;
+        border: 1px solid #00b0fa;
+        margin: 1em;
+    }
+
+    .gallery img {
+        width: 8.6em;
+    }
+    
+    footer {
+        margin-top: 3em;
+        margin-bottom: 4em;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        background: rgb(43,141,195);
+        background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
+    }
+
+    footer a {
+        margin: 2em;
+        padding-bottom: 2em
+    }
+    
+    }
