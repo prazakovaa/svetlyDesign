@@ -23,10 +23,9 @@ body {
 }
 
 #navBAR {
-    position: absolute;
-    top: 2em;
-    left: 7em;
+    width: 100%;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     font-size: 2.5em;
     font-weight: 520;
@@ -58,6 +57,11 @@ body {
 
 .main p {
     padding: 1em
+}
+
+.main h1 {
+    font-size: 1em;
+    padding-top: 2em
 }
 
 .main img {
