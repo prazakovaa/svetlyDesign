@@ -10,3 +10,7 @@ light -> #FCFCFC
 
 ## fonts
 "Poppins", sans-serif;
+
+## zdroje
+obrázky: firma Světlý deSign
+texty: AI copilot

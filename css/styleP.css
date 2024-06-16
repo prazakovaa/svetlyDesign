@@ -2,9 +2,13 @@
 
 @media only screen and (min-width: 360px) { 
 
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+
 header {
     background: rgb(43,141,195);
-    background: linear-gradient(320deg, rgba(43,141,195,1) 0%, rgba(0,176,250,1) 73%, rgba(123,216,255,1) 100%);
+    background: linear-gradient(320deg, rgba(31,113,158,1) 0%, rgba(0,176,250,1) 73%, rgba(156,226,255,1) 100%);
 }
 
 header a {
@@ -12,7 +16,6 @@ header a {
     margin: 1em;
     padding: 1em;
     font-weight: 450;
-    font-family: "Poppins", sans-serif;
 }
 
 header img {
@@ -30,6 +33,17 @@ header img {
     width: 14em;
 }
 
+footer {
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background: rgb(43,141,195);
+    background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
+}
 
+footer p {
+    padding-top: 2em
+}
 
 }
