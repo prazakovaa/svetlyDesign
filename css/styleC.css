@@ -48,6 +48,7 @@ header img {
 
 footer {
     margin-top: 3em;
+    padding-bottom: 2em;
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -55,44 +56,33 @@ footer {
     background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
 }
 
-footer p {
-    padding-top: 2em
+footer h2 {
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 0.8em;;
 }
 
+#a {
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;
 }
 
-/* pro telefony  */
-@media only screen and (max-width: 900px) {
-
-body {
-font-family: "Poppins", sans-serif;
+#a a{
+    margin: 1em;
 }
 
-header {
-    background: rgb(43,141,195);
-    background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
+#a a:hover {
+    font-size: larger;
+    transition: 1s;
+    text-decoration: none;
 }
 
-#navBaR {
-    width: 100%;
-    font-size: 0.6em;
+#a a:hover::before {
+    content: "> "
 }
 
-header img {
-    width: 5em;
-    height: auto;
-}
-
-
-
-footer {
-    margin-top: 3em;
-    margin-bottom: 2em;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-    background: rgb(43,141,195);
-    background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
+#a a:hover::after {
+    content: " <"
 }
 
 }

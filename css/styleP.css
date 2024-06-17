@@ -52,8 +52,33 @@ footer {
     background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
 }
 
-footer p {
-    padding-top: 2em
+footer h2 {
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 0.8em;;
+}
+
+#a {
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;
+}
+
+#a a{
+    margin: 1em;
+}
+
+#a a:hover {
+    font-size: larger;
+    transition: 1s;
+    text-decoration: none;
+}
+
+#a a:hover::before {
+    content: "> "
+}
+
+#a a:hover::after {
+    content: " <"
 }
 
 }
@@ -89,19 +114,10 @@ footer p {
     footer article {
         padding: 1em;
     }
-
-    footer p {
-        margin: 1px
-    }
-
-    #contact h1 {
-        font-size: 1.7em;
-        padding-top: 1em;
-    }
     
     #copyright {
         border-top: 1px solid white;
-        padding-bottom: 3em;
+        padding-bottom: 2em;
     }
 
     #copyright a:hover {
