@@ -23,18 +23,28 @@ header img {
 
 }
 
-.gallery {
-    display: inline-block;
-    border: 1px solid #00b0fa;
-    margin: 2em;
+.gallery{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
 }
 
-.gallery img {
-    width: 14em;
+.photos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2em;
+}
+
+.photos img{
+    width: 100%;
 }
 
 footer {
     margin-top: 3em;
+    padding-bottom: 2em;
     width: 100%;
     text-align: center;
     font-size: 1.2em;
@@ -71,16 +81,6 @@ footer p {
         height: auto;
     }
 
-    .gallery {
-        display: inline-block;
-        border: 1px solid #00b0fa;
-        margin: 1em;
-    }
-
-    .gallery img {
-        width: 8em;
-    }
-
     footer {
         background: rgb(43,141,195);
         background: linear-gradient(108deg, rgba(22,143,209,1) 0%, rgba(0,176,250,1) 18%, rgba(134,219,254,1) 75%, rgba(156,226,255,1) 100%);
@@ -96,12 +96,19 @@ footer p {
 
     #contact h1 {
         font-size: 1.7em;
-
+        padding-top: 1em;
     }
     
     #copyright {
         border-top: 1px solid white;
-        padding-bottom: 3em
+        padding-bottom: 3em;
+    }
+
+    #copyright a:hover {
+        font-size: larger;
+        transition: 1s;
+        font-weight: 400;
+        text-decoration: none;
     }
     
     }
